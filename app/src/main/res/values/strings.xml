@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Compose_1</string>
     <string name="Details">usman yousuf</string>
+    <string name="Toast">"Taking to the profile page"</string>
 </resources>

@@ -46,6 +46,8 @@ val users = listOf(
     User(1),
     User(1),
     User(1),
+    User(1),
+    User(1),
 )
 @Composable
 fun UserList(){
@@ -86,7 +88,7 @@ fun UserCard(){
                      .clip(CircleShape).border(width = 2.dp,color = Color.DarkGray,shape = CircleShape)
             )
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Button(onClick = { Toast.makeText(context,"Taking to the profile page",Toast.LENGTH_LONG ).show() })
+                Button(onClick = { Toast.makeText(context,R.string.Toast,Toast.LENGTH_LONG ).show() })
                 {
                     Text(text = "View Profile")
                 }
